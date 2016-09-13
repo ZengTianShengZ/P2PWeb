@@ -1,0 +1,15 @@
+#.editorconfig.org
+# IED 配置文件 ，IED 先会读取这个配置文件，其他没配置的项就默认有IED的
+# 跟多配置查看官网  http://editorconfig.org/
+# root = true 表示 IED 读取这个文件就不用在继续往下找其他文件了
+root = true
+
+[*]
+charse = utf-8
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
