@@ -155,6 +155,7 @@ header .top ul li {
   </li> <a href="#">快速注册</a> </li>
 
   */
+
 header .top ul li + li {
     border-left: 1px solid #999;
     margin-left: -3px;
@@ -165,7 +166,7 @@ header .top ul li a {
     padding: 0 1.5rem;
     color: #fff;
 }
-
+/* 设置断点 */
 @media only screen and (max-width: 50em) {
     header .top ul li a {
         padding: 0 1rem;
@@ -220,7 +221,7 @@ header .main ul li a.active {
     color: #ffb300;
     background-color: #f8f6f1;
 }
-
+/* @media 优先与 html 解析 ，所以 这里的  size 默认 16px ，em 也是基于 浏览器的，所以可以用 em ，50em == 800px */
 @media only screen and (max-width: 50em) {
 
     header .main .brand {
@@ -327,6 +328,7 @@ header .main ul li a.active {
         font-size: 1.6rem;
         margin: 0;
         padding: 0;
+        /*  letter-spacing: inherit;  字间距设置默认了*/
         letter-spacing: inherit;
         box-shadow: none;
         background: transparent;
@@ -419,6 +421,7 @@ header .main ul li a.active {
 
 @media only screen and (max-width: 30em) {
 
+    /* width: 96%;  把宽度撑大一点点 */
     .feature {
         width: 96%;
         margin: 1rem auto;
