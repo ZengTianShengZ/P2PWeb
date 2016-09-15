@@ -7,6 +7,8 @@
     <meta name="viewport" content="width = device-width , initial-scale = 1">
     <link rel="stylesheet" type="text/css" href="css/Normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="js/vendor/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/vendor/owl-carousel/assets/owl.theme.css">
 
 
 </head>
@@ -54,53 +56,30 @@
     </div>
 
     <div class="ad">
-        <div class="owl-carousel owl-theme owl-loaded owl-drag">
+        <div id="owl-example" class="owl-carousel">
 
-
-
-            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2698px, 0px, 0px); transition: 0s; width: 9443px;"><div class="owl-item cloned" style="width: 1349px;"><div class="item">
+            <div class="item">
                 <picture>
-                    <source srcset="img/ad002-l.png" media="(min-width: 50em)">
-                    <source srcset="img/ad002-m.png" media="(min-width: 30em)">
-                    <img srcset="img/ad002.png" alt="新年红包">
+                    <source srcset="img/a1366img1.jpg" media="(min-width: 50em)">
+                    <source srcset="img/a480img1.jpg" media="(min-width: 30em)">
+                    <img srcset="img/a800img1.jpg" alt="新年红包">
                 </picture>
-            </div></div><div class="owl-item cloned" style="width: 1349px;"><div class="item">
+            </div>
+            <div class="item">
                 <picture>
-                    <source srcset="img/ad003-l.png" media="(min-width: 50em)">
-                    <source srcset="img/ad003-m.png" media="(min-width: 30em)">
-                    <img srcset="img/ad003.png" alt="新手秘籍">
+                    <source srcset="img/a1366img2.jpg" media="(min-width: 50em)">
+                    <source srcset="img/a480img2.jpg" media="(min-width: 30em)">
+                    <img srcset="img/a800img2.jpg" alt="新年红包">
                 </picture>
-            </div></div><div class="owl-item active" style="width: 1349px;"><div class="item">
+            </div>
+            <div class="item">
                 <picture>
-                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
-                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
-                    <img src="img/ad001.png" alt="2015年度报告">
+                    <source srcset="img/a1366img3.jpg" media="(min-width: 50em)">
+                    <source srcset="img/a480img3.jpg" media="(min-width: 30em)">
+                    <img srcset="img/a800img3.jpg" alt="新年红包">
                 </picture>
-            </div></div><div class="owl-item" style="width: 1349px;"><div class="item">
-                <picture>
-                    <source srcset="img/ad002-l.png" media="(min-width: 50em)">
-                    <source srcset="img/ad002-m.png" media="(min-width: 30em)">
-                    <img srcset="img/ad002.png" alt="新年红包">
-                </picture>
-            </div></div><div class="owl-item" style="width: 1349px;"><div class="item">
-                <picture>
-                    <source srcset="img/ad003-l.png" media="(min-width: 50em)">
-                    <source srcset="img/ad003-m.png" media="(min-width: 30em)">
-                    <img srcset="img/ad003.png" alt="新手秘籍">
-                </picture>
-            </div></div><div class="owl-item cloned" style="width: 1349px;"><div class="item">
-                <picture>
-                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
-                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
-                    <img src="img/ad001.png" alt="2015年度报告">
-                </picture>
-            </div></div><div class="owl-item cloned" style="width: 1349px;"><div class="item">
-                <picture>
-                    <source srcset="img/ad002-l.png" media="(min-width: 50em)">
-                    <source srcset="img/ad002-m.png" media="(min-width: 30em)">
-                    <img srcset="img/ad002.png" alt="新年红包">
-                </picture>
-            </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+            </div>
+        </div>
     </div>
 
     <section class="feature">
@@ -300,6 +279,41 @@
     </ul>
     <p>北京某互联网金融公司 版权所有 ® 2015-2016</p>
 </footer>
+
+<script src="js/vendor/jquery.js"></script>
+<script src = 'js/vendor/picturefill.js'></script>
+
+<script src="js/vendor/owl-carousel/owl.carousel.min.js"></script>
+ <script src="js/main.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+        $("#owl-example").owlCarousel({
+            items:1,
+            autoPlay:true,
+            stopOnHover:true,
+            autoplayTimeout:600
+        });
+/*        function rImg() {
+
+        }
+        var width = $(window).width;
+        var $img = $('ad-img');
+
+        if(width<481){
+            $img.attr('src','480img1.jpg');
+        }else if(width<801){
+            $img.attr('src','800img1.jpg');
+        }else{
+            $img.attr('src','1366img1.jpg');
+        }
+
+        $(window).on('resize load',rImg);*/
+
+
+    });
+</script>
 
 </body>
 </html>

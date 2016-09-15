@@ -358,8 +358,14 @@ header .main ul li a.active {
 /* 广告 轮番图区 */
 
 .ad {
-    display: none;
+  /*  display: none;*/
+    width: 100%;
 }
+/*
+.ad .item{
+    width: 50%;
+    height: 400px;
+}*/
 
 /* 产品 特色 宣传区 */
 
