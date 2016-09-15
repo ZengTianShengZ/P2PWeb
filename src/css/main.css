@@ -5,6 +5,14 @@
 /* ==========
    整体样式�
    ========== */
+.dasdsdsdsad{
+    width: 100px;
+    height: 300px;
+}
+#sjidjisd{
+    width: 100px;
+    height: 300px;
+}
 
 /*  font-size: 62.5%; font-size默认16px   16*62.5% = 10*/
 html {
@@ -357,9 +365,10 @@ header .main ul li a.active {
 
 /* 广告 轮番图区 */
 
+
 .ad {
   /*  display: none;*/
-    width: 100%;
+    width: 99%;
 }
 /*
 .ad .item{

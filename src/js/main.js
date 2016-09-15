@@ -12,4 +12,7 @@
 });*/
 $(document).ready(function () {
 
+    function tesxxxx() {
+        $('.dasdsdsdsad').css('width',222);
+    }
 });
