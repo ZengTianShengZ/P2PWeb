@@ -8,3 +8,6 @@
 ![sou](https://github.com/ZengTianShengZ/P2PWeb/blob/master/src/img/shou.jpg)
 ###微信二维码扫一扫
 ![er](https://github.com/ZengTianShengZ/P2PWeb/blob/master/src/img/erwei.jpg)
+
+###pc端点击链接跳转到网页
+ [index.html](https://zengtianshengz.github.io/blog/respondwebpage/index.html) 
